@@ -16,7 +16,6 @@
 		15899649287D8D7C00D9C294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15899647287D8D7C00D9C294 /* LaunchScreen.storyboard */; };
 		15899651287D917000D9C294 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15899650287D917000D9C294 /* LoginViewController.swift */; };
 		15BD5C9C2882D12F0009E0B0 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD5C9B2882D12F0009E0B0 /* APIModel.swift */; };
-		15BD5C9E2882EEA00009E0B0 /* Delegations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD5C9D2882EEA00009E0B0 /* Delegations.swift */; };
 		15BD5CA22882F8430009E0B0 /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BD5CA12882F8430009E0B0 /* ReservationViewController.swift */; };
 		B964C620673A5702F94DF09D /* Pods_charger_onWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D884918EAA81116E8EB070 /* Pods_charger_onWork.framework */; };
 /* End PBXBuildFile section */
@@ -36,7 +35,6 @@
 		1589964A287D8D7C00D9C294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15899650287D917000D9C294 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		15BD5C9B2882D12F0009E0B0 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
-		15BD5C9D2882EEA00009E0B0 /* Delegations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegations.swift; sourceTree = "<group>"; };
 		15BD5CA12882F8430009E0B0 /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				151916F72880096D00BF9E32 /* Controllers */,
-				15BD5C9D2882EEA00009E0B0 /* Delegations.swift */,
 				15BD5C982882AFA30009E0B0 /* View */,
 				151916F42880062A00BF9E32 /* Model */,
 				1589963B287D8D7800D9C294 /* charger_onWork */,
@@ -247,7 +244,6 @@
 			files = (
 				15899651287D917000D9C294 /* LoginViewController.swift in Sources */,
 				151916F62880065300BF9E32 /* LoginRegisterModel.swift in Sources */,
-				15BD5C9E2882EEA00009E0B0 /* Delegations.swift in Sources */,
 				15BD5CA22882F8430009E0B0 /* ReservationViewController.swift in Sources */,
 				151916F928805CDE00BF9E32 /* ProfileViewController.swift in Sources */,
 				1589963D287D8D7800D9C294 /* AppDelegate.swift in Sources */,
