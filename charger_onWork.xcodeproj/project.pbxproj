@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		151916F62880065300BF9E32 /* LoginRegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151916F52880065300BF9E32 /* LoginRegisterModel.swift */; };
+		151916F62880065300BF9E32 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151916F52880065300BF9E32 /* UserInfo.swift */; };
 		151916F928805CDE00BF9E32 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151916F828805CDE00BF9E32 /* ProfileViewController.swift */; };
+		152779D428904F18008A15F0 /* PickStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152779D328904F18008A15F0 /* PickStationViewController.swift */; };
+		1566B78A288F2BD50041C54F /* PickCityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566B789288F2BD50041C54F /* PickCityController.swift */; };
 		1589963D287D8D7800D9C294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589963C287D8D7800D9C294 /* AppDelegate.swift */; };
 		1589963F287D8D7800D9C294 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589963E287D8D7800D9C294 /* SceneDelegate.swift */; };
 		15899644287D8D7800D9C294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15899642287D8D7800D9C294 /* Main.storyboard */; };
@@ -24,8 +26,10 @@
 		00E14DDA0D307955E3EE2159 /* Pods-charger_onWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-charger_onWork.release.xcconfig"; path = "Target Support Files/Pods-charger_onWork/Pods-charger_onWork.release.xcconfig"; sourceTree = "<group>"; };
 		02D884918EAA81116E8EB070 /* Pods_charger_onWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_charger_onWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AF50B75906B658D18B6B35 /* Pods-charger_onWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-charger_onWork.debug.xcconfig"; path = "Target Support Files/Pods-charger_onWork/Pods-charger_onWork.debug.xcconfig"; sourceTree = "<group>"; };
-		151916F52880065300BF9E32 /* LoginRegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterModel.swift; sourceTree = "<group>"; };
+		151916F52880065300BF9E32 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		151916F828805CDE00BF9E32 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		152779D328904F18008A15F0 /* PickStationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickStationViewController.swift; sourceTree = "<group>"; };
+		1566B789288F2BD50041C54F /* PickCityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCityController.swift; sourceTree = "<group>"; };
 		15899639287D8D7800D9C294 /* charger_onWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = charger_onWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1589963C287D8D7800D9C294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1589963E287D8D7800D9C294 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +66,7 @@
 		151916F42880062A00BF9E32 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				151916F52880065300BF9E32 /* LoginRegisterModel.swift */,
+				151916F52880065300BF9E32 /* UserInfo.swift */,
 				15BD5C9B2882D12F0009E0B0 /* APIModel.swift */,
 			);
 			path = Model;
@@ -74,6 +78,8 @@
 				15899650287D917000D9C294 /* LoginViewController.swift */,
 				151916F828805CDE00BF9E32 /* ProfileViewController.swift */,
 				15BD5CA12882F8430009E0B0 /* ReservationViewController.swift */,
+				1566B789288F2BD50041C54F /* PickCityController.swift */,
+				152779D328904F18008A15F0 /* PickStationViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -242,13 +248,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152779D428904F18008A15F0 /* PickStationViewController.swift in Sources */,
 				15899651287D917000D9C294 /* LoginViewController.swift in Sources */,
-				151916F62880065300BF9E32 /* LoginRegisterModel.swift in Sources */,
+				151916F62880065300BF9E32 /* UserInfo.swift in Sources */,
 				15BD5CA22882F8430009E0B0 /* ReservationViewController.swift in Sources */,
 				151916F928805CDE00BF9E32 /* ProfileViewController.swift in Sources */,
 				1589963D287D8D7800D9C294 /* AppDelegate.swift in Sources */,
 				15BD5C9C2882D12F0009E0B0 /* APIModel.swift in Sources */,
 				1589963F287D8D7800D9C294 /* SceneDelegate.swift in Sources */,
+				1566B78A288F2BD50041C54F /* PickCityController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
